@@ -1,0 +1,50 @@
+body{
+  padding: 25px;
+  background-color: #fffff0;
+  text-align: center;
+}
+.title {
+	color: #15aeff;
+	font-family: Inter;
+	padding: 5%;
+	transition: 0.5s;
+	animation: rise 0.5s ease 1;
+	
+}
+@keyframes rise{
+  from{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.content{
+  font-family: Teko;
+  color: Red;
+  padding-bottom: 10%;
+  animation-delay: 1s;
+  animation: rise 0.5s ease 1.5s 1 forwards;
+  opacity: 0;
+}
+.buddha{
+  height: 50vh;
+}
+.mandala {
+  position: absolute;
+  height: 20vh;
+  transform: translateX(-139%) translateY(-27%);
+  z-index: -1;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: translateX(-139%) translateY(-27%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-139%) translateY(-27%) rotate(360deg);
+  }
+}

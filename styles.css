@@ -9,7 +9,10 @@ body{
 	padding: 5%;
 	transition: 0.5s;
 	animation: rise 0.5s ease 1;
+
+	text-align: center;
 	
+	font-size: 8vw;
 }
 @keyframes rise{
   from{
@@ -28,7 +31,7 @@ body{
   animation-delay: 1s;
   animation: rise 0.5s ease 1.5s 1 forwards;
   opacity: 0;
- 
+  font-size: 10vw;
 }
 .buddha{
   height: 50vh;

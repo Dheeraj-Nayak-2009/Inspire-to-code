@@ -9,7 +9,7 @@ body{
 	padding: 5%;
 	transition: 0.5s;
 	animation: rise 0.5s ease 1;
-
+        padding-top: 30%;
 	text-align: center;
 	
 	font-size: 8vw;
